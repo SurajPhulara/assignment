@@ -15,9 +15,6 @@
     font-weight: 600;
     z-index: 999;
     padding-top: 10px;
-    /* border: 5px solid red; */
-    border-radius: 12px 12px 0 0;
-    border-bottom: 1px solid #DDE5EA;
 }
 
 /* left section of the header */
@@ -176,6 +173,10 @@ padding: 12.5px 5px;
 @media (min-width: 1126px) {
     .subheader{
         display: block;
+    }
+    .header{  
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid #DDE5EA;
     }
 }
 @media (min-width: 515px) {

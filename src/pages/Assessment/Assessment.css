@@ -19,7 +19,7 @@
 }
 
 /* left section of the page header */
-.header_bottom_left {
+.page_header_left {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -29,10 +29,11 @@
     width: 50vw;
     padding: 10px 0px;
     border-bottom: 2px solid var(--active-color);
+
 }
 
 /* right section of the page header */
-.header_bottom_right {
+.page_header_right {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -78,6 +79,7 @@
 .body_header_right {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 

@@ -13,10 +13,10 @@ const Assessment = () => {
 
             {/* header section */}
             <div className="page_header">
-                <div className="header_bottom_left">
+                <div className="page_header_left">
                     My Assessments
                 </div>
-                <div className="header_bottom_right">
+                <div className="page_header_right">
                     Unstop Assessments
                 </div>
             </div>
